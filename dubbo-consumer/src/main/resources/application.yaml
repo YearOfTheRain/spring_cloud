@@ -1,20 +1,24 @@
 server:
   port: 9101
 
+
+project:
+  ip: 127.0.0.1
+
 spring:
   application:
     name: dubbo-consumer
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: ${project.ip}:8848
       config:
         file-extension: yaml
-        server-addr: 127.0.0.1:8848
+        server-addr: ${project.ip}:8848
         group: DEFAULT_GROUP
 
 dubbo:
   registry:
-    address: spring-cloud://localhost
+    address: spring-cloud://${project.ip}
   cloud:
     subscribed-services: dubbo-provider

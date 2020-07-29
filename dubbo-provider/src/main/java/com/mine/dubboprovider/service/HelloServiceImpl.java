@@ -14,6 +14,7 @@ import org.apache.dubbo.config.annotation.Service;
 public class HelloServiceImpl implements HelloService {
     @Override
     public String sayHello(String name) {
+        System.out.println("wowowowowow");
         return "你好: " + name;
     }
 }

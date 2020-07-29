@@ -24,6 +24,7 @@
         <module>provider-two</module>
         <module>dubbo-api</module>
         <module>dubbo-provider</module>
+        <module>dubbo-consumer</module>
     </modules>
 
     <properties>
