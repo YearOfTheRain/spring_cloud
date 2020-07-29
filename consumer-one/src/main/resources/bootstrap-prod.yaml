@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: consumer-one
+  profiles:
+    active: prod
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        file-extension: yaml
+        server-addr: 127.0.0.1:8848
+
+feign:
+  httpclient:
+    enabled: true
