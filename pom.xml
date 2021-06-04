@@ -31,7 +31,7 @@
         <java.version>1.8</java.version>
         <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
         <spring.cloud.version>Hoxton.SR1</spring.cloud.version>
-        <org-apache-httpclient.version>4.5.6</org-apache-httpclient.version>
+        <org-apache-httpclient.version>4.5.13</org-apache-httpclient.version>
         <com-netflix-feign.version>8.17.0</com-netflix-feign.version>
     </properties>
 
